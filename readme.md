@@ -15,6 +15,8 @@ Execute CodeSniffer
 phpcs --standard=LaravelCodeSniffer/Standards/Laravel/  /path/to/your/project/files
 ```
 
+###Testing the Sniff
+
 This Sniff was tested using the Laravel Framework source code and some changes, to comply with PSR2, were required, [click here to see them](http://github.com/antonioribeiro/laravelcs/compare/096884846fa385e54a7e4eeb43547a9137fdf047...d78508f9e5633bc0f776f730dcc6f1e0a9c8daec). Those were the violations found and fixed in Filesystem.php:
 
 ```
