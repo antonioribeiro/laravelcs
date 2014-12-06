@@ -259,8 +259,8 @@ class Filesystem {
 		// out any "files" that are not truly files so we do not end up with any
 		// directories in our list, but only true files within the directory.
 		return array_filter($glob, function($file) {
-				return filetype($file) == 'file';
-			});
+			return filetype($file) == 'file';
+		});
 	}
 
 	/**
