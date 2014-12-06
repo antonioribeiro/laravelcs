@@ -42,4 +42,6 @@ This Sniff was tested using the Laravel Framework source code and some changes, 
  --------------------------------------------------------------------------------
 ```
 
-###There are probably still a lot to do here, so please, open issues and send pull requests.
+###Contributing
+
+There are probably still a lot to do here, so please, open issues and send pull requests.
