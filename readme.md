@@ -15,4 +15,6 @@ Execute CodeSniffer
 phpcs --standard=LaravelCodeSniffer/Standards/Laravel/  /path/to/your/project/files
 ```
 
-####This Sniff was tested using a Laravel .php file and some changes, to comply with PSR2, were required, [click here to see them](http://github.com/antonioribeiro/laravelcs/compare/096884846fa385e54a7e4eeb43547a9137fdf047...d78508f9e5633bc0f776f730dcc6f1e0a9c8daec).
+####This Sniff was tested using the Laravel Framework source code and some changes, to comply with PSR2, were required, [click here to see them](http://github.com/antonioribeiro/laravelcs/compare/096884846fa385e54a7e4eeb43547a9137fdf047...d78508f9e5633bc0f776f730dcc6f1e0a9c8daec).
+
+###There are probably still a lot to do here, so please, open issues and send pull requests. 
