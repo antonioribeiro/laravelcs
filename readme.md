@@ -1,19 +1,27 @@
 # Laravel PHP_CodeSniffer
 ## This is a custom Sniff to detect violations and reformat PHP source code based on [Laravel Coding Standard](http://laravel.com/docs/4.2/contributions#coding-style).
 
-###Usage
+###Usage wih git
 
 Clone this repository
 
-```
-git clone http://github.com/antonioribeiro/laravelcs LaravelCodeSniffer
-```
+    git clone http://github.com/antonioribeiro/laravelcs LaravelCodeSniffer
 
 Execute CodeSniffer
 
-```
-phpcs --standard=LaravelCodeSniffer/Standards/Laravel/  /path/to/your/project/files
-```
+    phpcs --standard=LaravelCodeSniffer/Standards/Laravel/  /path/to/your/project/files
+
+###Usage wih composer
+
+The recommended way is to install it globally with the following command:
+
+    composer global require "pragmarx/laravel-code-sniffer=*"
+
+Make sure you have `~/.composer/vendor/bin/` in your PATH.
+
+You will then be able to run PHP Code Sniffer with the Laravel Standard:
+
+    phpcs --standard=~/.composer/vendor/pragmarx/laravel-code-sniffer/Standards/Laravel/ /path/to/your/project/files
 
 ###Testing the Sniff
 

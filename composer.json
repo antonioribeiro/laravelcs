@@ -1,0 +1,17 @@
+{
+  "name": "pragmarx/laravel-code-sniffer",
+  "description": "Code sniffer rules for Laravel coding standard",
+  "keywords": ["laravel", "code", "sniffer", "standards"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonio Carlos Ribeiro",
+      "email": "acr@antoniocarlosribeiro.com",
+      "role": "Creator"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "squizlabs/php_codesniffer": "~2.0"
+  }
+}
