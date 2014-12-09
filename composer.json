@@ -1,8 +1,8 @@
 {
-  "name": "pragmarx/laravel-code-sniffer",
-  "description": "Code sniffer rules for Laravel coding standard",
-  "keywords": ["laravel", "code", "sniffer", "standards"],
-  "license": "MIT",
+  "name": "pragmarx/laravelcs",
+  "description": "PHP_CodeSniffer custom Sniff for Laravel coding standard",
+  "keywords": ["laravel", "code", "sniffer", "standards", "PHP_CodeSniffer"],
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Antonio Carlos Ribeiro",
