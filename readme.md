@@ -13,7 +13,7 @@ Execute CodeSniffer
 
     phpcs --standard=LaravelCodeSniffer/Standards/Laravel/  /path/to/your/project/files
 
-###Usage wih [Composer](https://getcomposer.org/doc/00-intro.md#installation-nix)
+###Usage with [Composer](https://getcomposer.org/doc/00-intro.md#installation-nix)
 
 The recommended way is to install it globally with the following command:
 
