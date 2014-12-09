@@ -1,5 +1,5 @@
 # Laravel PHP_CodeSniffer
-## This is a custom Sniff to detect violations and reformat PHP source code based on [Laravel Coding Standard](http://laravel.com/docs/4.2/contributions#coding-style).
+### This is a custom Sniff to detect violations and reformat PHP source code based on [Laravel Coding Standard](http://laravel.com/docs/4.2/contributions#coding-style).
 
 Your source code will be checked for PSR-1 & the Laravel "flavor" of PSR-2.
 
