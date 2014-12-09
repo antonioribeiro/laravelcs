@@ -3,7 +3,7 @@
 
 Your source code will be checked for PSR-1 & the Laravel "flavor" of PSR-2.
 
-###Usage wih git
+###Usage with git
 
 Clone this repository
 
