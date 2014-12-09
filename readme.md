@@ -23,7 +23,7 @@ Make sure you have `~/.composer/vendor/bin/` in your PATH.
 
 You will then be able to run PHP Code Sniffer with the Laravel Standard:
 
-    phpcs --standard=~/.composer/vendor/pragmarx/laravelcs/Standards/Laravel/ /path/to/your/project/files
+    phpcs --standard=$HOME/.composer/vendor/pragmarx/laravelcs/Standards/Laravel/ /path/to/your/project/files
 
 ###Testing the Sniff
 
