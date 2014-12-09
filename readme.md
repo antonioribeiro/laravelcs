@@ -11,17 +11,21 @@ Execute CodeSniffer
 
     phpcs --standard=LaravelCodeSniffer/Standards/Laravel/  /path/to/your/project/files
 
-###Usage wih composer
+If you want also to test your source for PSR1, you can
+
+    phpcs --standard=PSR1,LaravelCodeSniffer/Standards/Laravel/  /path/to/your/project/files
+
+###Usage wih Composer
 
 The recommended way is to install it globally with the following command:
 
-    composer global require "pragmarx/laravel-code-sniffer=*"
+    composer global require pragmarx/laravelcs
 
 Make sure you have `~/.composer/vendor/bin/` in your PATH.
 
 You will then be able to run PHP Code Sniffer with the Laravel Standard:
 
-    phpcs --standard=~/.composer/vendor/pragmarx/laravel-code-sniffer/Standards/Laravel/ /path/to/your/project/files
+    phpcs --standard=~/.composer/vendor/pragmarx/laravelcs/Standards/Laravel/ /path/to/your/project/files
 
 ###Testing the Sniff
 
