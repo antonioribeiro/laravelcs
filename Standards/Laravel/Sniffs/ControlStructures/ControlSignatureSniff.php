@@ -81,7 +81,7 @@ class Laravel_Sniffs_ControlStructures_ControlSignatureSniff implements PHP_Code
 			$opener  = $tokens[$stackPtr]['scope_opener'];
 			$content = $phpcsFile->getTokensAsString(($closer + 1), ($opener - $closer - 1));
 
-			if ($content[0] !== $phpcsFile->eolChar) {
+			if (isset($content[0]) && $content[0] !== $phpcsFile->eolChar) {
 				$error = 'Expected 1 new line after closing parenthesis; found "%s"';
 				$data  = array(str_replace($phpcsFile->eolChar, '\n', $content));
 				$fix   = $phpcsFile->addFixableError($error, $closer, 'SpaceAfterCloseParenthesis', $data);
