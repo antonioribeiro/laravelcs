@@ -160,7 +160,7 @@
     <!-- checked in ControlStructures/ControlStructureSpacingSniff -->
 
     <!-- The body of each structure MUST be enclosed by braces. This standardizes how the structures look, and reduces the likelihood of introducing errors as new lines get added to the body. -->
-    <rule ref="Generic.ControlStructures.InlineControlStructure"/>
+    <!--<rule ref="Generic.ControlStructures.InlineControlStructure"/>-->
 
     <!-- 5.1. if, elseif, else -->
 
