@@ -258,9 +258,6 @@ class Laravel_Sniffs_Commenting_FunctionCommentSniff implements PHP_CodeSniffer_
 								$comment .= ' '.$tokens[$i]['content'];
 							}
 						}
-					} else {
-						$error = 'Missing parameter comment';
-						$phpcsFile->addError($error, $tag, 'MissingParamComment');
 					}
 				} else {
 					$error = 'Missing parameter name';
