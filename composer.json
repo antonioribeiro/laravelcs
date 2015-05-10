@@ -1,12 +1,12 @@
 {
-  "name": "pragmarx/laravelcs",
+  "name": "lukzgois/laravelcs",
   "description": "PHP_CodeSniffer custom Sniff for Laravel coding standard",
   "keywords": ["laravel", "code", "sniffer", "standards", "PHP_CodeSniffer"],
   "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "Antonio Carlos Ribeiro",
-      "email": "acr@antoniocarlosribeiro.com",
+      "name": "Lucas Padilha Gois",
+      "email": "lucaspgois@gmail.com",
       "role": "Creator"
     }
   ],
