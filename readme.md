@@ -3,7 +3,7 @@
 
 Your source code will be checked for PSR-1 & the Laravel "flavor" of PSR-2.
 
-###Usage wih git
+### Usage wih git
 
 Clone this repository
 
@@ -13,7 +13,7 @@ Execute CodeSniffer
 
     phpcs --standard=LaravelCodeSniffer/Standards/Laravel/  /path/to/your/project/files
 
-###Usage with [Composer](https://getcomposer.org/doc/00-intro.md#installation-nix)
+### Usage with [Composer](https://getcomposer.org/doc/00-intro.md#installation-nix)
 
 The recommended way is to install it globally with the following command:
 
@@ -25,7 +25,7 @@ You will then be able to run PHP Code Sniffer with the Laravel Standard:
 
     phpcs --standard=$HOME/.composer/vendor/pragmarx/laravelcs/Standards/Laravel/ /path/to/your/project/files
 
-###Testing the Sniff
+### Testing the Sniff
 
 This Sniff was tested using the Laravel Framework source code and some changes, to comply with PSR-2, were required, [click here to see them](http://github.com/antonioribeiro/laravelcs/compare/096884846fa385e54a7e4eeb43547a9137fdf047...d78508f9e5633bc0f776f730dcc6f1e0a9c8daec). Those were the violations found and fixed in Filesystem.php:
 
@@ -52,6 +52,6 @@ This Sniff was tested using the Laravel Framework source code and some changes, 
  --------------------------------------------------------------------------------
 ```
 
-###Contributing
+### Contributing
 
 There are probably still a lot to do here, so please, open issues and send pull requests.
